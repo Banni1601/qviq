@@ -178,7 +178,7 @@ const updateUserData = async (req, res) => {
   }
 };
 
-module.exports = { signUp, login,getAllUsersData,getOneUsersData,updateUserData,deleteUserData,getSpecificProfile };
+module.exports = { signUp, login,getAllUsersData,getOneUsersData,updateUserData,deleteUserData};
 
 
 
