@@ -50,7 +50,7 @@ const signUp = async (req, res) => {
       newUser.token = token;
 
        // Generate a unique URL for the user's profile
-       const profileUrl = `http://localhost:${PORT}/profile/${email}`;
+       const profileUrl = `https://org-server-br1g.onrender.com:${PORT}/profile/${email}`;
       const qrCodeData = await QRCode.toDataURL(profileUrl);
       newUser.qrCode = qrCodeData;
       newUser.qrCodeUrl = qrCodeData;
