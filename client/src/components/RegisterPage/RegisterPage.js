@@ -111,7 +111,7 @@ function RegisterPage() {
 
       
       await axios
-        .post("http://localhost:8000/api/signup", formData)
+        .post("https://org-server-br1g.onrender.com/api/signup", formData)
         .then((response) => {
           if (response.status === 200) {
             
